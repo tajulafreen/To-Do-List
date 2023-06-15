@@ -14,7 +14,7 @@ const createTaskItem = (description) => {
   checkbox.type = 'checkbox';
   checkbox.className = 'form-check-input';
 
-  const taskDescription = document.createElement('label');
+  const taskDescription = document.createElement('p');
   taskDescription.className = 'task-description';
   taskDescription.textContent = description;
 
