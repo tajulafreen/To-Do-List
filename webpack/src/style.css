@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(242, 231, 236);
+  display: flex;
+  justify-content: center;
+  
+}
+
+.main-section {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: max-content;
+    background-color: aquamarine;
+    border-radius: 25px;
+    box-shadow: 3px;
+    padding: 25px;
+    gap: 2%;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.bi-arrow-repeatt{
+    width: 40px;
+    height: 30px;
+    margin-top: 10%;
+    padding: auto;
+}
+
+.form-section{
+    display: flex;
+    justify-content: space-between;
+}
+.add{
+    width: 86%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: antiquewhite;
+}
+.clear-btn,.bi-arrow-repeatt,.btn-add{
+    background-color: azure;
+    color: rgb(11, 243, 165);
+    border-radius: 7px;
+}
