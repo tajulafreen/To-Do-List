@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.main-section {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: max-content;
+  border: 1px solid rgb(171, 165, 165);
+  padding: 5px;
+  gap: 2%;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(120, 115, 115);
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.bi-arrow-repeatt {
+  width: 25px;
+  height: 25px;
+  margin-top: 4%;
+  align-items: center;
+}
+
+.form-section {
+  display: flex;
+  padding-top: 15px;
+  border-bottom: 1px solid rgb(120, 115, 115);
+}
+
+.add {
+  width: 100%;
+  height: 30px;
+}
+
+.bi-arrow-repeatt,
+.btn-add {
+  border-radius: 7px;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.clear-btn {
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+}
+
+li {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid rgb(120, 115, 115);
+  padding-bottom: 5px;
+}
+
+li:last-child {
+  border: none;
+}
+
+.form-check-input {
+  margin-right: 25px;
+}
+
+.task-description {
+  font-size: 18px;
+  align-items: center;
+  margin-top: 9px;
+  width: 90%;
+}
+
+.delete-btn {
+  padding-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
