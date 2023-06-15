@@ -1,76 +1,167 @@
-# Webpack Linters Template
+<a name="readme-top"></a>
 
-This is a template repository for setting up a project with Webpack and linters (ESLint and Stylelint) configured. It provides a solid foundation for building JavaScript and CSS projects while ensuring code quality and adherence to coding standards.
+<div align="center">
+  
+  <h3><b>To Do List</b></h3>
 
-## Features
+</div>
 
-- Webpack configuration for bundling JavaScript and CSS files
-- ESLint for JavaScript linting with a recommended configuration
-- Stylelint for CSS linting with a recommended configuration
-- Pre-commit hooks to run linters before committing changes
-- Deployment script for deploying the project to GitHub Pages
+<!-- TABLE OF CONTENTS -->
 
-## Getting Started
+# 📗 Table of Contents
 
-To use this template and set up your project, follow these steps:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
 
-1. Click on the "Use this template" button or manually clone the repository.
-2. Clone the repository to your local machine using Git.
-   ```bash
-   git clone https://github.com/kit0-0/webpacl-linters-template.git
-   ```
-3. Navigate to the project directory.
-   ```bash
-   cd webpack-linters-template
-   ```
-4. Install the dependencies.
-   ```bash
-   npm install
-   ```
-5. Start the development server.
-   ```bash
-   npm start
-   ```
-   This will compile the project and launch the development server.
-6. Begin coding your project, writing JavaScript and CSS code in the `src` directory.
+- [📝 License](#license)
 
-## Scripts
+<!-- PROJECT DESCRIPTION -->
 
-The following scripts are available in the project:
+# 📖 [Awesome Book] <a name="about-project"></a>
 
-- `npm start`: Starts the development server.
-- `npm run build`: Builds the project for production.
-- `npm run lint`: Runs ESLint and Stylelint to check for linting issues.
-- `npm test`: Runs the project's tests (if any).
-- `npm run deploy`: Deploys the project to GitHub Pages.
+**[TO-DO-LIST]** is an online list where user can add or remove diffrent work
 
-## Configuration
+## 🛠 Built With <a name="built-with"></a>
 
-The project includes default configurations for ESLint and Stylelint, located in the root directory:
+### Tech Stack <a name="tech-stack"></a>
 
-- `.eslintrc.json`: ESLint configuration file with recommended settings.
-- `.stylelintrc.json`: Stylelint configuration file with recommended settings.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://html5.org/">HTML</a></li>
+    <li><a href="https://css.org/">CSS</a></li>
+    <li><a href="https://js.org/">JS</a></li>
+  </ul>
+</details>
 
-You can modify these configuration files according to your project's requirements.
+<!-- Features -->
 
-## Pre-commit Hooks
+### Key Features <a name="key-features"></a>
 
-The project is configured to run the linters automatically before committing changes, ensuring that code quality and style standards are maintained. If any issues are found, the commit will be blocked until the issues are resolved.
+- **[Add button]**
+- **[Remove button]**
+- **[Local storage]**
 
-## Deploying to GitHub Pages
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To deploy your project to GitHub Pages, use the following script:
+<!-- LIVE DEMO -->
 
-```bash
-npm run deploy
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+```
+git clone <url>
 ```
 
-This script will use `gh-pages` to deploy the contents of the `dist` directory to the `gh-pages` branch of your repository. Make sure to set up GitHub Pages for your repository before running this command.
+### Prerequisites
 
-## Contributing
+In order to run this project you need:
 
-If you have suggestions, improvements, or bug fixes, please feel free to contribute to this project. Fork the repository, make your changes, and submit a pull request with a clear description of your changes.
+- A code editor of your choice(like vs code or Atom and so on)
+- Version control System (git is preferred)
 
-## License
+### Setup
 
-The project is licensed under the [MIT License](LICENSE). Feel free to use and modify the template according to your needs.
+Clone this repository to your desired folder:
+
+```
+cd my-folder
+git clone https://github.com/tajulafreen/to-do-list.git
+cd Awesome-Books
+```
+
+### Install
+
+Install this project with:
+
+```
+  cd Awesome-Books
+  npm i
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```
+  live server
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```
+ npx eslint .
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Afreen**
+
+- GitHub: [@githubhandle](https://github.com/tajulafreen)
+- Twitter: [@twitterhandle](https://twitter.com/tajulafreen)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[classes]**
+- [ ] **[prototype]**
+- [ ] **[sort]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project give me stars and follow me on social media.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank to microverse.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
