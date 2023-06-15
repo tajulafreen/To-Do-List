@@ -6,31 +6,52 @@ const allTasks = [
   { description: 'Reivew my code', completed: false, index: 3 },
 ];
 
-const displayTasks = () => {
-  const elemTaskList = document.querySelector('.task-list');
-  elemTaskList.innerHTML = '';
-  allTasks.forEach((el, index) => {
-    const task = document.createElement('li');
-    task.id = index;
+const createTaskItem = (description) => {
+  const taskItem = document.createElement('li');
+  taskItem.className = 'task-item';
 
-    const check = document.createElement('input');
-    check.type = 'checkbox';
-    check.className = 'form-check';
-    check.checked = el.completed;
+  const checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.className = 'form-check-input';
 
-    const text = document.createElement('p');
+  const taskDescription = document.createElement('label');
+  taskDescription.className = 'task-description';
+  taskDescription.textContent = description;
 
-    text.textContent = el.description;
+  const deletebtn = document.createElement('button');
+  deletebtn.type = 'button';
+  deletebtn.className = 'delete-btn';
+  deletebtn.innerHTML = '<i class="bi bi-trash"></i>';
 
-    const delbtn = document.createElement('button');
-    delbtn.classList = 'delete';
-    delbtn.innerHTML = '<i class="bi bi-trash"></i>';
+  taskItem.appendChild(checkbox);
+  taskItem.appendChild(taskDescription);
+  taskItem.appendChild(deletebtn);
 
-    task.appendChild(check);
-    task.appendChild(text);
-    task.appendChild(delbtn);
+  return taskItem;
+};
 
-    elemTaskList.appendChild(task);
+const addTask = () => {
+  const inputField = document.querySelector('.add');
+  const description = inputField.value.trim();
+
+  if (description !== '') {
+    const taskItem = createTaskItem(description);
+    const tasksList = document.getElementById('tasks-list');
+    tasksList.appendChild(taskItem);
+    inputField.value = '';
+  }
+};
+const renderTasks = () => {
+  const taskList = document.getElementById('task-list');
+
+  allTasks.forEach((task) => {
+    const taskItem = createTaskItem(task.description);
+    taskList.appendChild(taskItem);
   });
 };
-displayTasks();
+window.addEventListener('DOMContentLoaded', () => {
+  renderTasks();
+
+  const addButton = document.querySelector('.btn-add');
+  addButton.addEventListener('click', addTask);
+});
