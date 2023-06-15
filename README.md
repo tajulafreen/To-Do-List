@@ -21,7 +21,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
+
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -32,7 +32,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesome Book] <a name="about-project"></a>
+# 📖 [TO-DO-LIST] <a name="about-project"></a>
 
 **[TO-DO-LIST]** is an online list where user can add or remove diffrent work
 
@@ -123,7 +123,7 @@ To run tests, run the following command:
 
 - GitHub: [@githubhandle](https://github.com/tajulafreen)
 - Twitter: [@twitterhandle](https://twitter.com/tajulafreen)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tajul-afreen-shaik-843951251/)
 
 
 <!-- FUTURE FEATURES -->
