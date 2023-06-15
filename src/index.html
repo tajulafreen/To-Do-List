@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>  
+    <div class="main-section">
+        <div class="title">
+          <p class="heading">To-Do-List</p>
+          <button type="button" class="bi-arrow-repeatt">
+            <i class="bi bi-arrow-repeat"></i>
+          </button>
+        </div>
+        <div class="form-section">
+          <input type="text" class="add" placeholder="Add to your list">
+         <button class="btn-add" type="button">
+          Add
+         </button>
+        </div>
+        <ul id="task-list" class="task-list"></ul>
+        <div class="clear">
+          <button type="button" class="clear-btn">
+            Clear All Completed
+          </button>
+        </div>
+      </div>
+      <script type="module" src="./index.js"></script>
+</body>
+</html>
