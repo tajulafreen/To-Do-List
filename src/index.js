@@ -1,6 +1,9 @@
 import './index.css';
 import TaskList from './taskList.js';
+import clearCompletedTasks from './cleartask.js';
+import LocalStorage from './localStorage.js';
 
+const localstores = new LocalStorage();
 const taskList = new TaskList();
 const taskListElement = document.getElementById('task-list');
 const addInput = document.getElementById('add');
@@ -28,4 +31,9 @@ document.querySelector('.edit-task-form').addEventListener('submit', (e) => {
     editInput.value = '';
     document.querySelector('.selected').classList.remove('selected');
   }
+});
+
+document.querySelector('.clear-btn').addEventListener('click', () => {
+  clearCompletedTasks();
+  localstores.saveTasks();
 });
