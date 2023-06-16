@@ -83,8 +83,11 @@ li:last-child {
   width: 90%;
 }
 
-.delete-btn {
-  padding-top: 5px;
-  margin-top: 10px;
-  margin-bottom: 5px;
+.check {
+  margin-right: 2%;
+}
+
+.des {
+  width: 85%;
+  margin-right: 2%;
 }
