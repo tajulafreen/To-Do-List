@@ -35,6 +35,12 @@ export default class TaskList {
     LocalStorage.saveTasks(this.tasks);
   }
 
+  clearCompletedTasks() {
+    this.tasks = this.tasks.filter((task) => !task.completed);
+    this.updateTaskIndexes();
+    this.saveTasks();
+  }
+
   renderTasks(taskListElement) {
     taskListElement.innerHTML = '';
 
@@ -72,5 +78,10 @@ export default class TaskList {
 
       taskListElement.appendChild(listItem);
     }
+    const clearButton = document.querySelector('.clear-btn');
+    clearButton.addEventListener('click', () => {
+      this.clearCompletedTasks();
+      this.renderTasks(taskListElement);
+    });
   }
 }
