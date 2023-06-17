@@ -62,7 +62,7 @@
 
 ## 🚀 Live Demo <a name="Demo"></a>
 
-- [Live Demo Link](https://tajulafreen.github.io/To-Do-List/)
+- [Live Demo Link](https://tajulafreen.github.io/To-Do-List/dist/
 
 <!-- GETTING STARTED -->
 
