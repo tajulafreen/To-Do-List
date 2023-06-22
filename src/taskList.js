@@ -8,7 +8,7 @@ export default class TaskList {
 
   addTask(description) {
     const task = new Task(description(task), false, this.tasks.length + 1);
-    this.tasks.push
+    // this.tasks.push;
     this.saveTasks();
   }
 
