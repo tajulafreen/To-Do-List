@@ -27,6 +27,14 @@ describe('TaskList', () => {
       expect(taskList.tasks[0].description).toBe('Task 1');
       expect(LocalStorage.saveTasks).toHaveBeenCalledWith(taskList.tasks);
     });
+    test('should add 2 tests in the list', () => {
+      taskList.addTask('task 1');
+      taskList.addTask('task 2');
+
+      expect(taskList.tasks.length).toBe(2);
+      expect(taskList.tasks[1].description).toBe('task 2');
+      expect(LocalStorage.saveTasks).toHaveBeenCalledWith(taskList.tasks);
+    });
   });
 
   describe('deleteTask', () => {

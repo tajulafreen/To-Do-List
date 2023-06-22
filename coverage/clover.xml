@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1687438924759" clover="3.2.0">
-  <project timestamp="1687438924759" name="All files">
+<coverage generated="1687439855351" clover="3.2.0">
+  <project timestamp="1687439855352" name="All files">
     <metrics statements="49" coveredstatements="12" conditionals="3" coveredconditionals="2" methods="14" coveredmethods="6" elements="66" coveredelements="20" complexity="0" loc="49" ncloc="49" packages="1" files="2" classes="2"/>
-    <file name="task.js" path="C:\Users\Affus\module2\To-Do-List\src\task.js">
+    <file name="task.js" path="C:\Users\Mahdi\Desktop\To-Do-List\src\task.js">
       <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="5" count="3" type="stmt"/>
     </file>
-    <file name="taskList.js" path="C:\Users\Affus\module2\To-Do-List\src\taskList.js">
+    <file name="taskList.js" path="C:\Users\Mahdi\Desktop\To-Do-List\src\taskList.js">
       <metrics statements="46" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="13" coveredmethods="5"/>
-      <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="10" count="1" type="stmt"/>
-      <line num="11" count="1" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
+      <line num="6" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="3" type="stmt"/>
+      <line num="11" count="3" type="stmt"/>
+      <line num="12" count="3" type="stmt"/>
       <line num="16" count="1" type="stmt"/>
       <line num="17" count="1" type="stmt"/>
       <line num="18" count="1" type="stmt"/>
@@ -23,7 +23,7 @@
       <line num="25" count="0" type="stmt"/>
       <line num="29" count="1" type="stmt"/>
       <line num="30" count="0" type="stmt"/>
-      <line num="35" count="2" type="stmt"/>
+      <line num="35" count="4" type="stmt"/>
       <line num="39" count="0" type="stmt"/>
       <line num="40" count="0" type="stmt"/>
       <line num="41" count="0" type="stmt"/>
