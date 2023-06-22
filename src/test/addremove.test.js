@@ -1,7 +1,7 @@
 import TaskList from '../taskList.js';
 import LocalStorage from '../localStorage.js';
 
-jest.mock('./localStorage', () => ({
+jest.mock('../localStorage', () => ({
   getTasks: jest.fn(),
   saveTasks: jest.fn(),
 }));
@@ -25,6 +25,16 @@ describe('TaskList', () => {
 
       expect(taskList.tasks.length).toBe(1);
       expect(taskList.tasks[0].description).toBe('Task 1');
+      expect(LocalStorage.saveTasks).toHaveBeenCalledWith(taskList.tasks);
+    });
+  });
+
+  describe('deleteTask', () => {
+    test('should remove a task to the task list and update localStorage', () => {
+      taskList.deleteTask('Task 1');
+
+      expect(taskList.tasks.length).toBe(0);
+
       expect(LocalStorage.saveTasks).toHaveBeenCalledWith(taskList.tasks);
     });
   });
